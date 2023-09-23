@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountApi", "AccountApi\Ac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountConsumers", "AccountConsumers\AccountConsumers.csproj", "{D437AE34-EF74-4F7C-AA86-89882E7F5A34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountStreamsConsole", "AccountStreamsConsole\AccountStreamsConsole.csproj", "{91369311-2E85-44DA-9CFF-D046E7FA0B57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{D437AE34-EF74-4F7C-AA86-89882E7F5A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D437AE34-EF74-4F7C-AA86-89882E7F5A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D437AE34-EF74-4F7C-AA86-89882E7F5A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91369311-2E85-44DA-9CFF-D046E7FA0B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91369311-2E85-44DA-9CFF-D046E7FA0B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91369311-2E85-44DA-9CFF-D046E7FA0B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91369311-2E85-44DA-9CFF-D046E7FA0B57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
