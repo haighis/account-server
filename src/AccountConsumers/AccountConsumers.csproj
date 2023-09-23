@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="KafkaFlow" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.Extensions.Hosting" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.LogHandler.Microsoft" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.Microsoft.DependencyInjection" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.Serializer" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.Serializer.JsonCore" Version="2.4.1" />
+      <PackageReference Include="KafkaFlow.TypedHandler" Version="2.4.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+      <PackageReference Include="Dapper" Version="2.0.151" />
+      <PackageReference Include="Npgsql" Version="7.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Features\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Features\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\AccountApi\AccountApi.csproj" />
+    </ItemGroup>
+</Project>
