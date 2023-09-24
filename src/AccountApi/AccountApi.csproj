@@ -15,6 +15,16 @@
         <PackageReference Include="KafkaFlow.Serializer" Version="2.4.1" />
         <PackageReference Include="KafkaFlow.Serializer.JsonCore" Version="2.4.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Dapper" Version="2.0.151" />
+        <PackageReference Include="Npgsql" Version="7.0.6" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Features\Register\" />
+      <None Remove="Features\Activate\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Features\Register\" />
+      <Folder Include="Features\Activate\" />
+    </ItemGroup>
 </Project>
